@@ -3,8 +3,8 @@ package interfaces;
 import java.util.List;
 import java.util.AbstractMap.SimpleEntry;
 
-import Partie5.InsertionException;
-import Partie5.Noeud;
+import P5ArbreDeRecherche.InsertionException;
+import P5ArbreDeRecherche.Noeud;
 
 /**
  * Interface d'un arbre AVL

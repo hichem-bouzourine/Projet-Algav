@@ -5,11 +5,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Vector;
 
-import Partie1.FileConverter;
-import Partie2.TasMinArbre;
-import Partie2.TasMinTab;
-import Partie3.FileBinomiale;
-import Partie3.TournoiBinomial;
+import P1Echauffement.FileConverter;
+import P2TasPrioriteMin.TasMinArbre;
+import P2TasPrioriteMin.TasMinTab;
+import P3FilesBinomiales.FileBinomiale;
+import P3FilesBinomiales.TournoiBinomial;
 import interfaces.ICle;
 
 /**
@@ -65,12 +65,12 @@ public class Outils {
 
 				tas = new TasMinArbre();
 				cpt++;
-				// nomFichier = "jeu_"+i+"_nb_cles_"+tailles[j]+".txt";
-				nomFichier = "donnees\\cles_alea\\jeu_1_nb_cles_1000.txt";
+				nomFichier = "jeu_" + i + "_nb_cles_" + tailles[j] + ".txt";
+				// nomFichier = "donnees\\cles_alea\\jeu_1_nb_cles_1000.txt";
 				System.out.println("Fichier : " + nomFichier + "Progression : " + cpt + "/" + nb * tailles.length);
 
-				fc = new FileConverter(nomFichier);
-				// fc = new FileConverter("donnees/cles_alea/"+nomFichier);
+				// fc = new FileConverter(nomFichier);
+				fc = new FileConverter("donnees/cles_alea/" + nomFichier);
 				Vector<ICle> cles = fc.getCle();
 
 				debut = System.nanoTime();

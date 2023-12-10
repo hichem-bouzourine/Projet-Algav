@@ -11,14 +11,14 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Vector;
 
-import Partie1.Cle128Bit;
-import Partie1.FileConverter;
-import Partie2.TasMinTab;
-import Partie3.FileBinomiale;
-import Partie3.TournoiBinomial;
-import Partie4.MD5;
-import Partie5.AVL;
-import Partie5.InsertionException;
+import P1Echauffement.Cle128Bit;
+import P1Echauffement.FileConverter;
+import P2TasPrioriteMin.TasMinTab;
+import P3FilesBinomiales.FileBinomiale;
+import P3FilesBinomiales.TournoiBinomial;
+import P4HachageMD5.MD5;
+import P5ArbreDeRecherche.AVL;
+import P5ArbreDeRecherche.InsertionException;
 import interfaces.ICle;
 
 public class ShakeSpear {
